@@ -42,6 +42,8 @@ function App() {
           <Route exact path='/partners' element={<HowItWorks />}/>
           <Route exact path='/terms-and-conditions' element={<TermsAndConditions />}/>
           <Route exact path='/privacy-policy' element={<PrivacyPolicy />}/>
+
+          <div>hi kiran</div>
         </Routes>
         <Footer />
       </Router>
